@@ -4,6 +4,25 @@
 
 Requête
 
+```sparql
+#Les sculptures d'Auguste Rodin 
+#defaultView:Map
+SELECT ?item ?image ?itemLabel ?lieuconservation ?lieuconservationLabel ?coordonneesgeo WHERE
+{
+  ?item wdt:P31/wdt:P279* wd:Q860861 . # recherche des sculptures 
+  ?item wdt:P170 wd:Q30755 . # les sculptures d'Auguste Rodin 
+  
+  OPTIONAL {
+    ?item wdt:P18 ?image .
+    ?item wdt:P276 ?lieuconservation .
+    ?lieuconservation wdt:P625 ?coordonneesgeo . 
+  }
+
+SERVICE wikibase:label {bd:serviceParam wikibase:language "fr,en"}
+  
+}
+```
+
 
 Carte
 
