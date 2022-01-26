@@ -9,7 +9,7 @@ Requête
 #defaultView:Map
 SELECT ?item ?image ?itemLabel ?lieuconservation ?lieuconservationLabel ?coordonneesgeo WHERE
 {
-  ?item wdt:P31/wdt:P279* wd:Q860861 . # recherche des sculptures 
+  ?item wdt:P31 wd:Q860861 . # recherche des sculptures 
   ?item wdt:P170 wd:Q30755 . # les sculptures d'Auguste Rodin 
   
   OPTIONAL {
