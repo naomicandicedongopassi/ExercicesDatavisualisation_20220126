@@ -30,5 +30,5 @@ Carte
 
 
 ---------------
-
+[](https://github.com/naomicandicedongopassi/ExercicesDatavisualisation_20220126/blob/main/treemap.svg)
 
