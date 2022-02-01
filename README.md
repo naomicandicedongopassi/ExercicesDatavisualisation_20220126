@@ -3,6 +3,7 @@
 **Les lieux de conservation pour les sculptures d'Auguste Rodin uniquement conservées aux Etats-Unis**
 
 Requête
+[Carte](/main/texte.md)
 
 ```sparql
 #Les sculptures d'Auguste Rodin 
