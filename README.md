@@ -37,3 +37,5 @@ Carte
 ---------------
 
 <div class="flourish-embed flourish-map" data-src="visualisation/8573833"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+[Page suivante](partie1.md) 
